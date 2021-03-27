@@ -1,0 +1,414 @@
+{
+  "fruits": [
+    {
+			"id": 1,
+			"name": "mango",
+			"bangla": "আম ",
+			"banglish": "aam",
+			"food_type": "fruit",
+			"scientific_name": "Mangifera indica",
+			"image": "https://agfstorage.blob.core.windows.net/misc/FP_com/2020/01/24/Aman.jpg",
+			"season": "summer"
+		},
+		{
+			"id": 2,
+			"name": "banana",
+			"bangla": "কলা ",
+			"banglish": "kola",
+			"food_type": "fruit",
+			"scientific_name": "Musa sapientum",
+			"image": "https://stylesatlife.com/wp-content/uploads/2019/07/Types-of-Bananas-in-India-Info-Pictures-of-all-Banana-Types.jpg",
+			"season": "all"
+		},
+		{
+			"id": 3,
+			"name": "grape",
+			"bangla": " আঙ্গুর",
+			"banglish": "angoor",
+			"food_type": "fruit",
+			"scientific_name": "Vitis vinifera",
+			"image": "https://sc04.alicdn.com/kf/U9e49811f54d7455abf6ca756e7fb3bcch.jpg",
+			"season": "all"
+		},
+		{
+			"id": 4,
+			"name": "orange",
+			"bangla": "কমলা",
+			"banglish": "komla",
+			"food_type": "fruit",
+			"scientific_name": "Citrus sinensis",
+			"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2ZiES_oDcvJEMa93YkFPlb4FIdTX7Xe2MCH1KT0Bv-sRMjyZrcMAglCAeKN3BJTe9cSc&usqp=CAU",
+			"season": "winter"
+		},
+		{
+			"id": 5,
+			"name": "apple",
+			"bangla": "আপেল",
+			"banglish": "apel",
+			"food_type": "fruit",
+			"scientific_name": "Malus domestica",
+			"image": "https://2.bp.blogspot.com/-AF6y1VhxCBo/WnLQj98fGxI/AAAAAAAAAIk/PawwXa_c36k8W-ogB1B5xbbzEF8a-usmwCLcBGAs/s1600/Apple.jpg",
+			"season": "all"
+		},
+		{
+			"id": 6,
+			"name": "pineapple",
+			"bangla": "আনারস",
+			"banglish": "anarosh",
+			"food_type": "fruit",
+			"scientific_name": "Ananas comosus",
+			"image": "https://lcgfruits.files.wordpress.com/2015/05/pineapple_1.jpg?w=640",
+			"season": "summer"
+		},
+		{
+			"id": 7,
+			"name": "blackberry",
+			"bangla": "কালো জাম",
+			"banglish": "kalo jam",
+			"food_type": "fruit",
+			"scientific_name": "Syzygium cumini",
+			"image": "https://image.freepik.com/free-photo/jambolan-plum-java-plum-syzygium-cumini_136354-127.jpg",
+			"season": ""
+		},
+		{
+			"id": 8,
+			"name": "carambola / star fruit",
+			"bangla": "কামরাঙ্গা ",
+			"banglish": "kamranga",
+			"food_type": "fruit",
+			"scientific_name": "",
+			"image": "",
+			"season": "summer"
+		},
+		{
+			"id": 9,
+			"name": "cherries",
+			"bangla": "jam jatio fol",
+			"banglish": "jam jatio fol",
+			"food_type": "fruit",
+			"scientific_name": "",
+			"image": "",
+			"season": ""
+		},
+		{
+			"id": 10,
+			"name": "coconut",
+			"bangla": "নারিকেল",
+			"banglish": "narikel",
+			"food_type": "fruit",
+			"scientific_name": "Cocos nucifera",
+			"image": "",
+			"season": ""
+		},
+		{
+			"id": 11,
+			"name": "avocado",
+			"bangla": "নাশপাতির আকারের ফল বিশেষ",
+			"banglish": "avokado",
+			"food_type": "fruit",
+			"scientific_name": "Persea americana",
+			"image": "https://cdn.britannica.com/s:800x450,c:crop/64/186964-138-86D71D2E/way-health-benefits-avocados-fruits.jpg",
+			"season": ""
+		},
+		{
+			"id": 12,
+			"name": "strawberry",
+			"bangla": "স্ট্রবেরি",
+			"banglish": "strawberry",
+			"food_type": "fruit",
+			"scientific_name": "Fragaria ananassa",
+			"image": "https://static.bengali.news18.com/static-bengali/2018/02/1499718462277_strawberry-630x420.jpg",
+			"season": ""
+		},
+		{
+			"id": 13,
+			"name": "papaya",
+			"bangla": "পেপে ",
+			"banglish": "pepe",
+			"food_type": "fruit",
+			"scientific_name": "Carica papaya",
+			"image": "",
+			"season": "all"
+		},
+		{
+			"id": 14,
+			"name": "jackfruit",
+			"bangla": "কাঁঠাল",
+			"banglish": "kathal",
+			"food_type": "fruit",
+			"scientific_name": "Artocarpus heterophyllus",
+			"image": "",
+			"season": "summer"
+		},
+		{
+			"id": 15,
+			"name": "guava",
+			"bangla": "পেয়ারা ",
+			"banglish": "payera",
+			"food_type": "fruit",
+			"scientific_name": "Psidium guajava",
+			"image": "",
+			"season": "summer"
+		},
+		{
+			"id": 16,
+			"name": "litchi",
+			"bangla": "লিচু",
+			"banglish": "lichu",
+			"food_type": "fruit",
+			"scientific_name": "Litchi chinensis",
+			"image": "",
+			"season": "summer"
+		},
+		{
+			"id": 17,
+			"name": "watermelon",
+			"bangla": "তরমুজ",
+			"banglish": "tormuj",
+			"food_type": "fruit",
+			"scientific_name": "Citrullus lanatus",
+			"image": "",
+			"season": "summer"
+		},
+		{
+			"id": 18,
+			"name": "hog-plums",
+			"bangla": "আমড়া",
+			"banglish": "amra",
+			"food_type": "fruit",
+			"scientific_name": "Spondias dulcis",
+			"image": "",
+			"season": "winter"
+		},
+		{
+			"id": 19,
+			"name": "lime / lemon",
+			"bangla": "লেবু",
+			"banglish": "lebu",
+			"food_type": "fruit",
+			"scientific_name": "Citrus limon",
+			"image": "",
+			"season": "all"
+		},
+		{
+			"id": 20,
+			"name": "citrus",
+			"bangla": "malta",
+			"banglish": "malta",
+			"food_type": "fruit",
+			"scientific_name": "",
+			"image": "",
+			"season": ""
+		},
+		{
+			"id": 21,
+			"name": "Sugarcane",
+			"bangla": "আখ / ইক্ষু / কুশার",
+			"banglish": "aakh / ikkhu / kusar",
+			"food_type": "fruit",
+			"scientific_name": "",
+			"image": "",
+			"season": ""
+		},
+		{
+			"id": 22,
+			"name": "custard apple",
+			"bangla": "আতা ফল",
+			"banglish": "ata",
+			"food_type": "fruit",
+			"scientific_name": "Anona squamosa",
+			"image": "",
+			"season": ""
+		},
+		{
+			"id": 23,
+			"name": "marmelos / wood apple",
+			"bangla": "কদবেল",
+			"banglish": "kathbel",
+			"food_type": "fruit",
+			"scientific_name": "Feronia limonia",
+			"image": "",
+			"season": ""
+		},
+		{
+			"id": 24,
+			"name": "indian apple / bael",
+			"bangla": "বেল",
+			"banglish": "bel",
+			"food_type": "fruit",
+			"scientific_name": "Aegle marmelos",
+			"image": "",
+			"season": ""
+		},
+		{
+			"id": 25,
+			"name": "elephant apple",
+			"bangla": "চালতা",
+			"banglish": "chalta",
+			"food_type": "fruit",
+			"scientific_name": "Dillenia indica",
+			"image": "",
+			"season": ""
+		},
+		{
+			"id": 26,
+			"name": "tamarind",
+			"bangla": "তেঁতুল",
+			"banglish": "tentul",
+			"food_type": "fruit",
+			"scientific_name": "Tamarindus indica",
+			"image": "",
+			"season": ""
+		},
+		{
+			"id": 27,
+			"name": "melon",
+			"bangla": "খরমুজ / বাঙ্গি",
+			"banglish": "khorbuj / bangi",
+			"food_type": "fruit",
+			"scientific_name": "Citrullus lanatus",
+			"image": "",
+			"season": ""
+		},
+		{
+			"id": 28,
+			"name": "cashew-nut",
+			"bangla": " হিজলি বাদাম / কাজু বাদাম",
+			"banglish": "hijli badam / kaju badam",
+			"food_type": "fruit",
+			"scientific_name": "",
+			"image": "",
+			"season": ""
+		},
+		{
+			"id": 29,
+			"name": "pomegranate",
+			"bangla": "আনার / ডালিম",
+			"banglish": "anaar / dalim",
+			"food_type": "fruit",
+			"scientific_name": "",
+			"image": "",
+			"season": ""
+		},
+		{
+			"id": 30,
+			"name": "palmyra palm",
+			"bangla": "তাল",
+			"banglish": "tal",
+			"food_type": "fruit",
+			"scientific_name": "",
+			"image": "",
+			"season": ""
+		},
+		{
+			"id": 31,
+			"name": "plum",
+			"bangla": "বড়ই / কুল",
+			"banglish": "boroi / kul",
+			"food_type": "fruit",
+			"scientific_name": "",
+			"image": "",
+			"season": ""
+		},
+		{
+			"id": 32,
+			"name": "rose apple",
+			"bangla": "জামরুল",
+			"banglish": "jamrul",
+			"food_type": "fruit",
+			"scientific_name": "",
+			"image": "",
+			"season": ""
+		},
+		{
+			"id": 33,
+			"name": "sapodilla",
+			"bangla": "সফেদা",
+			"banglish": "shofeda",
+			"food_type": "fruit",
+			"scientific_name": "",
+			"image": "",
+			"season": ""
+		},
+		{
+			"id": 34,
+			"name": "star-apple",
+			"bangla": "জামরুল",
+			"banglish": "jamrul",
+			"food_type": "fruit",
+			"scientific_name": "",
+			"image": "",
+			"season": ""
+		},
+		{
+			"id": 35,
+			"name": "burmese grape",
+			"bangla": "লাৎকন",
+			"banglish": "latkan",
+			"food_type": "fruit",
+			"scientific_name": "",
+			"image": "",
+			"season": ""
+		},
+		{
+			"id": 36,
+			"name": "velvet apple",
+			"bangla": "বিলিতি গাব",
+			"banglish": "bilati gab",
+			"food_type": "fruit",
+			"scientific_name": "",
+			"image": "",
+			"season": ""
+		},
+		{
+			"id": 37,
+			"name": "amalaki / indian gooseberry",
+			"bangla": "আমলকি",
+			"banglish": "amlaki",
+			"food_type": "fruit",
+			"scientific_name": "",
+			"image": "",
+			"season": ""
+		},
+		{
+			"id": 38,
+			"name": "dates",
+			"bangla": "খেজুর",
+			"banglish": "khejur",
+			"food_type": "fruit",
+			"scientific_name": "",
+			"image": "",
+			"season": ""
+		},
+		{
+			"id": 39,
+			"name": "fig",
+			"bangla": "ডুমুর",
+			"banglish": "dumur",
+			"food_type": "fruit",
+			"scientific_name": "",
+			"image": "",
+			"season": ""
+		},
+		{
+			"id": 40,
+			"name": "pear",
+			"bangla": "নাশপাতি",
+			"banglish": "nashpati",
+			"food_type": "fruit",
+			"scientific_name": "",
+			"image": "",
+			"season": ""
+		},
+		{
+			"id": 41,
+			"name": "olive",
+			"bangla": "জলপাই",
+			"banglish": "jolpai",
+			"food_type": "fruit",
+			"scientific_name": "",
+			"image": "",
+			"season": ""
+		}
+  ]
+}
