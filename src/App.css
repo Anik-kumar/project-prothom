@@ -2,16 +2,28 @@
   text-align: center;
   /* max-width: 800px; */
   width: 70%;
+  height: 100vh;
   margin: auto;
   overflow: auto;
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  justify-items: start;
 }
 
+.cap {
+  text-transform: capitalize;
+}
+
+/* Fruits */
 .fruits {
   display: block;
   height: 520px;
-  overflow: auto;
+  overflow-y: scroll;
   border: 1px solid lightslategray;
   border-radius: 10px;
+  background-color: #f5f5f5;
 }
 
 .fruit-list {
@@ -20,10 +32,7 @@
   
 }
 
-.cap {
-  text-transform: capitalize;
-}
-
+/* Fruit */
 .fruit {
   display: flex;
   justify-content: space-between;
@@ -33,7 +42,43 @@
   border-radius: 5px;
   margin: 5px auto;
   padding: 5px 10px;
+  background-color: white;
+  cursor: pointer;
 }
 .fruit-image, .fruit-info {
   margin: 5px;
 }
+
+/* Header */
+nav {
+  height: 50px;
+  display: flex;
+}
+.header-link {
+  text-decoration: none;
+  margin: 5px;
+  padding: 5px 10px;
+}
+.header-link:hover {
+  border: 1px solid teal;
+  border-radius: 5px;
+  color: black;
+}
+.header-link:active {
+  background-color: teal;
+  color: white;
+}
+.header-btn {
+  height: 50px;
+}
+
+/* About */
+.about {
+  background-color: #f5f5f5;
+  width: 600px;
+  max-width: 70%;
+  margin: auto;
+  border-radius: 5px;
+}
+
+/* Home */
