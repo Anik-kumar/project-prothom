@@ -25,7 +25,7 @@ const FruitDetails = (props) => {
       <p className="cap">English: {fruit.name}</p>
       <p>Scientific name: <i className="cap">{fruit.scientific_name}</i></p>
       <p className="cap">Season: {fruit.season} </p>
-      <img src={fruit.image} alt={fruit.name} width="500px" />
+      <img src={fruit.image} alt={fruit.name} width="400px" />
     </div>
   )
 }

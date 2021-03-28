@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { v1 as uuid } from "uuid";
+// import { v1 as uuid } from "uuid";
 import Fruit from "./Fruit";
 
 const Fruits = () => {
@@ -14,7 +14,6 @@ const Fruits = () => {
       const tmp = await result.json().then(data => {
         setFruits(data);
         // console.log("data ", data);
-        console.log("data ", data);
       });
     };
 
@@ -44,7 +43,7 @@ const Fruits = () => {
 
   return (
     <div className="fruits" onScroll={loadFruits} >
-      <p>Fruits</p>
+      <h2>Fruits</h2>
       <div className="fruit-list">
         {
           limitFruits().map((f, i) => (
