@@ -1,8 +1,16 @@
+import { useHistory } from "react-router-dom";
 
 const Fruit = ({ fruit }) => {
 
+  const history = useHistory();
+
+  const redirectFruitDetails = (id) => {
+    history.push(`/fruits/${id}`);
+    // console.log(`fruit `, id)
+  }
+
   return (
-    <div className="fruit">
+    <div className="fruit" onClick={() => redirectFruitDetails(fruit.id)}>
       <div className="fruit-image">
         <img src={fruit.image} alt="image" width="200" />
       </div>
@@ -15,5 +23,6 @@ const Fruit = ({ fruit }) => {
     </div>
   )
 }
+
 
 export default Fruit;

@@ -41,8 +41,6 @@ const Fruits = () => {
     return tmpArr;
   }
 
-  // getFruits();
-
 
   return (
     <div className="fruits" onScroll={loadFruits} >
